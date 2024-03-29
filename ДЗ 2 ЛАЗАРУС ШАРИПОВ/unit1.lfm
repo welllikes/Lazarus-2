@@ -1,0 +1,128 @@
+object Form1: TForm1
+  Left = 341
+  Height = 360
+  Top = 213
+  Width = 480
+  Caption = 'Нахождение площади'
+  ClientHeight = 360
+  ClientWidth = 480
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 192
+    Height = 25
+    Top = 16
+    Width = 83
+    Caption = 'Введите x '
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 32
+    Height = 25
+    Top = 40
+    Width = 65
+    Caption = 'Точка A'
+    OnClick = Label2Click
+  end
+  object Label3: TLabel
+    Left = 192
+    Height = 25
+    Top = 96
+    Width = 84
+    Caption = 'Введите y '
+    OnClick = Label1Click
+  end
+  object Label4: TLabel
+    Left = 40
+    Height = 25
+    Top = 200
+    Width = 64
+    Caption = 'Точка C'
+    OnClick = Label2Click
+  end
+  object Label5: TLabel
+    Left = 193
+    Height = 25
+    Top = 176
+    Width = 83
+    Caption = 'Введите x '
+    OnClick = Label1Click
+  end
+  object Label6: TLabel
+    Left = 191
+    Height = 25
+    Top = 248
+    Width = 84
+    Caption = 'Введите y '
+    OnClick = Label1Click
+  end
+  object Edit1: TEdit
+    Left = 176
+    Height = 33
+    Top = 48
+    Width = 120
+    TabOrder = 0
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 180
+    Height = 33
+    Top = 132
+    Width = 120
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 180
+    Height = 33
+    Top = 204
+    Width = 120
+    TabOrder = 2
+  end
+  object Edit4: TEdit
+    Left = 176
+    Height = 33
+    Top = 280
+    Width = 120
+    TabOrder = 3
+  end
+  object Label7: TLabel
+    Left = 360
+    Height = 25
+    Top = 64
+    Width = 76
+    Caption = 'Площадь'
+    OnClick = Label7Click
+  end
+  object Label8: TLabel
+    Left = 353
+    Height = 25
+    Top = 200
+    Width = 83
+    Caption = 'Периметр'
+    OnClick = Label7Click
+  end
+  object Edit5: TEdit
+    Left = 344
+    Height = 33
+    Top = 96
+    Width = 120
+    TabOrder = 4
+  end
+  object Edit6: TEdit
+    Left = 336
+    Height = 33
+    Top = 240
+    Width = 120
+    TabOrder = 5
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 38
+    Top = 304
+    Width = 112
+    Caption = 'Вычислить'
+    TabOrder = 6
+    OnClick = Button1Click
+  end
+end
